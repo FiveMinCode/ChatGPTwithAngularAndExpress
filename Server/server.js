@@ -7,8 +7,8 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
 dotenv.config();
 
 const configuration = new Configuration({
-    organization: "org-8NZt2L3qiqeTxjrxQzt6DR5q",
-    apiKey: "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",
+    organization: "Use your org key",
+    apiKey: "use your API key",
 });
 
 const openai = new OpenAIApi(configuration);
